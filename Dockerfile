@@ -11,4 +11,4 @@ COPY . /data
 EXPOSE 5678
 
 # Comando para iniciar n8n
-CMD ["n8n"]
+CMD ["npx", "n8n"]

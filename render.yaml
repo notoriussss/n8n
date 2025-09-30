@@ -14,10 +14,16 @@ services:
       - key: WEBHOOK_URL
         value: "https://your-render-url.com/"
       - key: GENERIC_TIMEZONE
-        value: "UTC"
+        value: "America/Caracas"
       - key: N8N_HOST
         value: "0.0.0.0"
       - key: N8N_PORT
         value: "5678"
       - key: N8N_PROTOCOL
         value: "https"
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "false"
+      - key: N8N_DISABLE_UI
+        value: "false"
+      - key: N8N_DISABLE_PRODUCTION_MAIN_PROCESS
+        value: "false"

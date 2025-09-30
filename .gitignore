@@ -1,0 +1,32 @@
+# Archivos de n8n
+.n8n/
+data/
+logs/
+
+# Archivos de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Variables de entorno (opcional, si tienes un archivo .env)
+.env
+.env.local
+.env.production
+
+# Archivos de Docker
+.dockerignore
